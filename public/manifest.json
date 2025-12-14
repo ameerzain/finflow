@@ -1,0 +1,24 @@
+{
+  "name": "FinFlow - Minimalist Money Manager",
+  "short_name": "FinFlow",
+  "description": "A minimalist money manager to track your income and expenses effortlessly",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F9FAFB",
+  "theme_color": "#3B82F6",
+  "orientation": "portrait",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "/vite.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["finance", "utilities"],
+  "screenshots": [],
+  "shortcuts": [],
+  "lang": "en"
+}
+
