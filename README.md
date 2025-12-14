@@ -1,13 +1,14 @@
 # FinFlow - Minimalist Money Manager
 
-<div align="center">
-  <h3>Track Your Income & Expenses Effortlessly</h3>
-  <p>A clean, minimalist personal finance application to manage your money with ease.</p>
-</div>
+[![React 19.2+](https://img.shields.io/badge/React-19.2+-61DAFB.svg)](https://reactjs.org/)
+[![TypeScript 5.8+](https://img.shields.io/badge/TypeScript-5.8+-3178C6.svg)](https://www.typescriptlang.org/)
+[![Node.js 18+](https://img.shields.io/badge/Node.js-18+-339933.svg)](https://nodejs.org/)
+[![License MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-<div align="center">
-  <img src="docs/dashboard-screenshot.jpg" alt="FinFlow Dashboard" width="300"/>
-</div>
+<h3>Track Your Income & Expenses Effortlessly</h3>
+<p>A clean, minimalist personal finance application to manage your money with ease.</p>
+
+<img src="docs/dashboard-screenshot.jpg" alt="FinFlow Dashboard" width="300"/>
 
 ## Features
 
