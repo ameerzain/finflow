@@ -6,7 +6,7 @@
 </div>
 
 <div align="center">
-  <img src="docs/dashboard-screenshot.jpg" alt="FinFlow Dashboard" width="800"/>
+  <img src="docs/dashboard-screenshot.jpg" alt="FinFlow Dashboard" width="300"/>
 </div>
 
 ## Features
