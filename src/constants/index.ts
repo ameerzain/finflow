@@ -1,5 +1,5 @@
-import { TransactionType } from './types';
-import type { Category, Transaction, Currency } from './types';
+import { TransactionType } from '../types';
+import type { Category, Transaction, Currency } from '../types';
 
 export const DEFAULT_CATEGORIES: Category[] = [
   // Expenses
