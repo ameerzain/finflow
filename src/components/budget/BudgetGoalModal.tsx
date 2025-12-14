@@ -1,7 +1,7 @@
 import React, { useState, useMemo, useEffect } from 'react';
-import type { Category, Budgets } from '../types';
-import { TransactionType } from '../types';
-import { XIcon } from './icons/XIcon';
+import type { Category, Budgets } from '../../types';
+import { TransactionType } from '../../types';
+import { XIcon } from '../ui/icons/XIcon';
 
 interface BudgetGoalModalProps {
   isOpen: boolean;

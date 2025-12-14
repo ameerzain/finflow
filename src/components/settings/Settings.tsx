@@ -1,14 +1,14 @@
 import React, { useRef, useState } from 'react';
-import type { BackupData, Transaction, Budgets, Currency, Category } from '../types';
-import { DownloadIcon } from './icons/DownloadIcon';
-import { UploadIcon } from './icons/UploadIcon';
-import { ResetIcon } from './icons/ResetIcon';
-import { WalletIcon } from './icons/WalletIcon';
-import { TagIcon } from './icons/TagIcon';
-import { ChevronRightIcon } from './icons/ChevronRightIcon';
-import { BudgetTracker } from './BudgetTracker';
-import { Categories } from './Categories';
-import { ArrowLeftIcon } from './icons/ArrowLeftIcon';
+import type { BackupData, Transaction, Budgets, Currency, Category } from '../../types';
+import { DownloadIcon } from '../ui/icons/DownloadIcon';
+import { UploadIcon } from '../ui/icons/UploadIcon';
+import { ResetIcon } from '../ui/icons/ResetIcon';
+import { WalletIcon } from '../ui/icons/WalletIcon';
+import { TagIcon } from '../ui/icons/TagIcon';
+import { ChevronRightIcon } from '../ui/icons/ChevronRightIcon';
+import { BudgetTracker } from '../budget/BudgetTracker';
+import { Categories } from '../categories/Categories';
+import { ArrowLeftIcon } from '../ui/icons/ArrowLeftIcon';
 
 interface SettingsProps {
   // Budget Props

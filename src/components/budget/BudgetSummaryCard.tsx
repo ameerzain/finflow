@@ -1,6 +1,6 @@
 import React from 'react';
-import type { Currency } from '../types';
-import { ProgressBar } from './ProgressBar';
+import type { Currency } from '../../types';
+import { ProgressBar } from '../common/ProgressBar';
 
 interface BudgetSummaryCardProps {
   totalBudget: number;

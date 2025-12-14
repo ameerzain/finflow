@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
-import type { Transaction, Currency, Category } from '../types';
-import type { SortKey, SortOrder, TransactionTypeFilter } from '../App';
-import { TransactionType } from '../types';
-import { TrashIcon } from './icons/TrashIcon';
-import { FilterIcon } from './icons/FilterIcon';
+import type { Transaction, Currency, Category } from '../../types';
+import type { SortKey, SortOrder, TransactionTypeFilter } from '../../app/App';
+import { TransactionType } from '../../types';
+import { TrashIcon } from '../ui/icons/TrashIcon';
+import { FilterIcon } from '../ui/icons/FilterIcon';
 import { TransactionFiltersModal } from './TransactionFiltersModal';
-import { SortAscIcon } from './icons/SortAscIcon';
-import { SortDescIcon } from './icons/SortDescIcon';
-import { ResetIcon } from './icons/ResetIcon';
+import { SortAscIcon } from '../ui/icons/SortAscIcon';
+import { SortDescIcon } from '../ui/icons/SortDescIcon';
+import { ResetIcon } from '../ui/icons/ResetIcon';
 
 interface TransactionListProps {
   transactions: Transaction[];

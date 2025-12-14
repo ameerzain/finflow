@@ -1,6 +1,6 @@
 
 import React from 'react';
-import type { Currency } from '../types';
+import type { Currency } from '../../types';
 
 interface SummaryCardProps {
   title: string;

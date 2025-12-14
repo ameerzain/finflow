@@ -1,8 +1,8 @@
 
 import React, { useState, useEffect } from 'react';
-import type { Transaction, Category } from '../types';
-import { TransactionType } from '../types';
-import { XIcon } from './icons/XIcon';
+import type { Transaction, Category } from '../../types';
+import { TransactionType } from '../../types';
+import { XIcon } from '../ui/icons/XIcon';
 
 interface TransactionModalProps {
   isOpen: boolean;

@@ -1,8 +1,8 @@
 
 import React, { useState, useEffect, useMemo } from 'react';
-import type { Category } from '../types';
-import { XIcon } from './icons/XIcon';
-import { TransactionType } from '../types';
+import type { Category } from '../../types';
+import { XIcon } from '../ui/icons/XIcon';
+import { TransactionType } from '../../types';
 
 interface MergeCategoryModalProps {
   isOpen: boolean;

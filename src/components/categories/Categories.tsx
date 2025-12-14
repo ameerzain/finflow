@@ -1,10 +1,10 @@
 import React from 'react';
-import type { Category, Transaction } from '../types';
-import { TransactionType } from '../types';
-import { PencilIcon } from './icons/PencilIcon';
-import { TrashIcon } from './icons/TrashIcon';
-import { PlusIcon } from './icons/PlusIcon';
-import { MergeIcon } from './icons/MergeIcon';
+import type { Category, Transaction } from '../../types';
+import { TransactionType } from '../../types';
+import { PencilIcon } from '../ui/icons/PencilIcon';
+import { TrashIcon } from '../ui/icons/TrashIcon';
+import { PlusIcon } from '../ui/icons/PlusIcon';
+import { MergeIcon } from '../ui/icons/MergeIcon';
 
 interface CategoriesProps {
   categories: Category[];

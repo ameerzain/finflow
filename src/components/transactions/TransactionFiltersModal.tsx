@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import type { Category } from '../types';
-import type { SortKey, SortOrder, TransactionTypeFilter } from '../App';
-import { XIcon } from './icons/XIcon';
-import { ExportIcon } from './icons/ExportIcon';
+import type { Category } from '../../types';
+import type { SortKey, SortOrder, TransactionTypeFilter } from '../../app/App';
+import { XIcon } from '../ui/icons/XIcon';
+import { ExportIcon } from '../ui/icons/ExportIcon';
 
 interface TransactionFiltersModalProps {
   isOpen: boolean;

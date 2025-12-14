@@ -1,12 +1,12 @@
 import React, { useMemo } from 'react';
 import { PieChart, Pie, Cell, Tooltip, Legend, ResponsiveContainer } from 'recharts';
-import type { Transaction, Currency, Category, Budgets } from '../types';
-import { TransactionType } from '../types';
-import { SummaryCard } from './SummaryCard';
+import type { Transaction, Currency, Category, Budgets } from '../../types';
+import { TransactionType } from '../../types';
+import { SummaryCard } from '../common/SummaryCard';
 import { IncomeExpenseChart } from './IncomeExpenseChart';
-import { BudgetGoalCard } from './BudgetGoalCard';
-import { AddGoalCard } from './AddGoalCard';
-import { BudgetSummaryCard } from './BudgetSummaryCard';
+import { BudgetGoalCard } from '../budget/BudgetGoalCard';
+import { AddGoalCard } from '../budget/AddGoalCard';
+import { BudgetSummaryCard } from '../budget/BudgetSummaryCard';
 
 interface DashboardProps {
   transactions: Transaction[];

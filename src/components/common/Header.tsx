@@ -1,7 +1,7 @@
 
 import React from 'react';
-import { CURRENCIES } from '../constants';
-import type { Currency } from '../types';
+import { CURRENCIES } from '../../constants';
+import type { Currency } from '../../types';
 
 interface HeaderProps {
   currency: Currency;

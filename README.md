@@ -89,24 +89,37 @@ For native mobile app deployment, you can use tools like:
 
 ```
 finflow/
-├── components/          # React components
-│   ├── Dashboard.tsx
-│   ├── TransactionList.tsx
-│   ├── Settings.tsx
-│   ├── BudgetTracker.tsx
-│   ├── Categories.tsx
-│   ├── icons/          # SVG icon components
-│   └── ...
-├── hooks/              # Custom React hooks
-│   └── useLocalStorage.ts
+├── src/                 # Source code
+│   ├── app/            # Application entry point
+│   │   ├── App.tsx
+│   │   └── index.tsx
+│   ├── components/     # React components (feature-based)
+│   │   ├── common/     # Shared components
+│   │   │   ├── Header.tsx
+│   │   │   ├── Tabs.tsx
+│   │   │   ├── ProgressBar.tsx
+│   │   │   └── SummaryCard.tsx
+│   │   ├── transactions/  # Transaction-related components
+│   │   ├── budget/       # Budget-related components
+│   │   ├── categories/   # Category-related components
+│   │   ├── dashboard/    # Dashboard components
+│   │   ├── settings/     # Settings components
+│   │   └── ui/          # UI primitives (icons, etc.)
+│   │       └── icons/
+│   ├── hooks/          # Custom React hooks
+│   │   └── useLocalStorage.ts
+│   ├── types/          # TypeScript type definitions
+│   │   └── index.ts
+│   ├── constants/      # App constants
+│   │   └── index.ts
+│   ├── utils/          # Utility functions
+│   └── styles/         # Global styles
+│       └── index.css
 ├── public/             # Static assets
-│   └── manifest.json   # PWA manifest
-├── types.ts            # TypeScript type definitions
-├── constants.ts        # App constants and defaults
-├── App.tsx             # Main application component
-├── index.tsx           # Application entry point
+│   └── manifest.json
+├── docs/               # Documentation/assets
+│   └── dashboard-screenshot.jpg
 ├── index.html          # HTML template
-├── index.css           # Global styles
 ├── vite.config.ts      # Vite configuration
 ├── tailwind.config.js  # Tailwind CSS configuration
 └── tsconfig.json       # TypeScript configuration

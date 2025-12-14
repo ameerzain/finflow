@@ -1,7 +1,7 @@
 import React, { useMemo } from 'react';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
-import type { Transaction, Currency } from '../types';
-import { TransactionType } from '../types';
+import type { Transaction, Currency } from '../../types';
+import { TransactionType } from '../../types';
 
 interface IncomeExpenseChartProps {
   transactions: Transaction[];

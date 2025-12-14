@@ -1,8 +1,8 @@
 
 import React, { useState, useMemo, useEffect } from 'react';
-import type { Transaction, Budgets, Currency, Category } from '../types';
-import { TransactionType } from '../types';
-import { ProgressBar } from './ProgressBar';
+import type { Transaction, Budgets, Currency, Category } from '../../types';
+import { TransactionType } from '../../types';
+import { ProgressBar } from '../common/ProgressBar';
 
 interface BudgetTrackerProps {
   transactions: Transaction[];

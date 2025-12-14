@@ -1,7 +1,7 @@
 import React from 'react';
-import type { Category, Currency } from '../types';
-import { ProgressBar } from './ProgressBar';
-import { XIcon } from './icons/XIcon';
+import type { Category, Currency } from '../../types';
+import { ProgressBar } from '../common/ProgressBar';
+import { XIcon } from '../ui/icons/XIcon';
 
 interface BudgetGoalCardProps {
   category: Category;

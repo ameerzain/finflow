@@ -1,5 +1,5 @@
 import React from 'react';
-import { PlusCircleIcon } from './icons/PlusCircleIcon';
+import { PlusCircleIcon } from '../ui/icons/PlusCircleIcon';
 
 interface AddGoalCardProps {
   onClick: () => void;

@@ -1,9 +1,9 @@
 
 import React, { useState, useEffect } from 'react';
-import type { Category } from '../types';
-import { TransactionType } from '../types';
-import { ICON_OPTIONS } from '../constants';
-import { XIcon } from './icons/XIcon';
+import type { Category } from '../../types';
+import { TransactionType } from '../../types';
+import { ICON_OPTIONS } from '../../constants';
+import { XIcon } from '../ui/icons/XIcon';
 
 interface CategoryModalProps {
   isOpen: boolean;
