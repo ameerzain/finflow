@@ -5,6 +5,10 @@
   <p>A clean, minimalist personal finance application to manage your money with ease.</p>
 </div>
 
+<div align="center">
+  <img src="docs/dashboard-screenshot.jpg" alt="FinFlow Dashboard" width="800"/>
+</div>
+
 ## Features
 
 - 💰 **Track Income & Expenses** - Record all your financial transactions with ease
